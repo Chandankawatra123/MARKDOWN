@@ -1,0 +1,31 @@
+body {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+}
+
+.text-editor {
+    flex: 1;
+    padding: 30px;
+    border: 0;
+    resize: none;
+    background: #000860;
+    color: whitesmoke;
+}
+
+.preview {
+    flex: 1;
+    padding: 0 50px;
+    background: #3c84e9;
+    color: #00171f;
+}
